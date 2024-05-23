@@ -1,4 +1,5 @@
 import React from 'react';
+import img from "../assets/IconArrayTrack (1).png";
 
 const cardClass = 'bg-white shadow-md rounded-lg p-6';
 const titleClass = 'text-xl font-bold mb-4';
@@ -27,7 +28,7 @@ const TypographyComponent = () => {
   return (
     <div className="flex flex-col md:flex-row items-start p-4 space-y-4 md:space-y-0 md:space-x-8">
       <div className="flex items-start space-x-4">
-        <img src="https://placehold.co/64x64" alt="Typography Icon" className="w-16 h-16" />
+        <img src={img} alt="Typography Icon" className="w-16 h-16" />
         <div>
           <h1 className="text-3xl font-bold">Typography</h1>
           <p className="text-zinc-600 dark:text-zinc-400 mt-2">Pick the track info you want to display, and then exactly how to display it.</p>

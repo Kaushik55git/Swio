@@ -1,4 +1,5 @@
 import React from 'react';
+import img from "../assets/IconArraySettings.png";
 
 const sharedClasses = {
   flex: 'flex',
@@ -20,7 +21,7 @@ const SettingsComponent = () => {
     <div className={`${sharedClasses.flexCol} ${sharedClasses.flexRow} ${sharedClasses.itemsCenter} ${sharedClasses.padding} ${sharedClasses.spaceY} ${sharedClasses.spaceX}`}>
       <div className={sharedClasses.flexShrink}>
         <img
-          src="https://placehold.co/100x100"
+          src={img}
           alt="Settings Icon"
           className={sharedClasses.image}
         />
